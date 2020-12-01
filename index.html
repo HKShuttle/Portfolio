@@ -10,6 +10,17 @@
         .yamakasa {
             float: right;
         }
+        button {
+            border-style: none;
+            padding: unset;
+            font-size: unset;
+            font-family: unset;
+            text-decoration-line: underline;
+            cursor: pointer;
+        }
+        button:focus {
+            outline: 0;
+        }
     </style>
     <script type="text/javascript">
         function changeCssLinkClick() {
@@ -77,10 +88,10 @@
 
 <ul>
     <li>
-        <a href="javascript:changeCssLinkClick();">ターミナルっぽいデザインになるボタン</a>
+        <button onclick="changeCssLinkClick()">ターミナルっぽいデザインになるボタン</button>
     </li>
     <li>
-        <a href="javascript:restoreCssLinkClick();">ふつうのデザインになるボタン</a>
+        <button onclick="restoreCssLinkClick()">ふつうのデザインになるボタン</button>
     </li>
 </ul>
 

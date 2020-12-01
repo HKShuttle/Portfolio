@@ -10,6 +10,11 @@ a {
     color: #00aa00;
 }
 
+button {
+    background: #111111;
+    color: #00aa00;
+}
+
 hr {
     display: block;
     height: 1px;

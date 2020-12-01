@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata");
+
+body {
+    font-family: "Inconsolata", monospace;
+    background: #111111;
+    color: #e59006;
+}
+
+a {
+    color: #00aa00;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px dashed #e59006;
+}
+
+li {
+    list-style: none;
+}
+
+li:before {
+    content: "-->"
+}

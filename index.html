@@ -5,22 +5,20 @@
     <title>
         About Sola
     </title>
-    <link href="https://fonts.googleapis.com/css?family=Sawarabi+Gothic" rel="stylesheet">
+    <link href="./style-default.css" rel="stylesheet" id="cssMain">
     <style type="text/css">
-        body {
-            font-family: "Sawarabi Gothic",sans-serif;
-            background: #21252b;
-            color: white;
-        }
-
-        a {
-            color: white;
-        }
-
         .yamakasa {
             float: right;
         }
     </style>
+    <script type="text/javascript">
+        function changeCssLinkClick() {
+            document.getElementById("cssMain").href = "terminal-like.css";
+        }
+        function restoreCssLinkClick() {
+            document.getElementById("cssMain").href = "style-default.css";
+        }
+    </script>
 </head>
 <body>
 <div class="yamakasa">
@@ -74,6 +72,15 @@
     </li>
     <li>
         <a href="https://twitter.com/HK_Shuttle">Twitter: @HK_Shuttle</a>
+    </li>
+</ul>
+
+<ul>
+    <li>
+        <a href="javascript:changeCssLinkClick();">ターミナルっぽいデザインになるボタン</a>
+    </li>
+    <li>
+        <a href="javascript:restoreCssLinkClick();">ふつうのデザインになるボタン</a>
     </li>
 </ul>
 

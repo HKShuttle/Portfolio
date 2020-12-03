@@ -10,6 +10,15 @@ a {
     color: #00aa00;
 }
 
+h1, h2 {
+    font-size: unset;
+    font-weight: normal;
+}
+
+h1:before, h2:before, h1:after, h2:after {
+    content: "****";
+}
+
 button {
     background: #111111;
     color: #00aa00;
@@ -22,10 +31,14 @@ hr {
     border-top: 1px dashed #e59006;
 }
 
+ul {
+    padding-left: 0;
+}
+
 li {
     list-style: none;
 }
 
 li:before {
-    content: "-->"
+    content: "--->"
 }

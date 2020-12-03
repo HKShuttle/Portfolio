@@ -10,6 +10,15 @@ a {
     color: #00aa00;
 }
 
+h1, h2 {
+    font-size: unset;
+    font-weight: normal;
+}
+
+h1:before, h2:before, h1:after, h2:after {
+    content: "****";
+}
+
 button {
     background: #111111;
     color: #00aa00;
